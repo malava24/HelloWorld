@@ -26,24 +26,7 @@ int main() {
 		std::cout << array[i] << " ";
 	}
      std::cout << std::endl;
+	 
+	 std::cout << "hello" << std::endl;
 }
 	
-/*
-int arr[] = { 0, -5, 9, 8, 0, 0, 0, 4, 0 };
-int* linerArr = &arr[0];
-
-const int arraySize = sizeof(arr) / sizeof(int);
-
-for (int i = 0; i < arraySize; ++i) {
-	bool hasPair = false;
-	for (int y = 0; y < arraySize; ++y) {
-		if (*(linerArr + i) == *(linerArr + y) && i != y) {
-			hasPair = true;
-		}
-	}
-	if (hasPair == false) {
-		std::cout << "The number: " << *(linerArr + i) << " doesn't have a pair" << std::endl;
-	}
-}
-for (int i = 0; i < arraySize; ++i) {
-	std::cout << arr[i] << " ";*/
